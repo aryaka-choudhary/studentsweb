@@ -17,6 +17,12 @@ h6 {
 	font-weight: 300;
 }
 
+/* on hover link for read more/less */
+.paraLink {
+  color: blue;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
