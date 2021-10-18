@@ -1,15 +1,15 @@
-function readMore(event) {
-	var btnText = event.target;
-	console.log(btnText);
-	var moreText = btnText.previousElementSibling;
-	var dots = moreText.previousElementSibling;
-	if (moreText.style.display === "none") {
-	  dots.style.display = "none";
-	  btnText.innerHTML = "read less";
-	  moreText.style.display = "inline";
-	} else {
-	  dots.style.display = "inline";
-	  btnText.innerHTML = "read more";
-	  moreText.style.display = "none";
-	}
+function ciReadMore() {
+    var dots = document.getElementById("ciDots");
+    var moreText = document.getElementById("ciMore");
+    var btnText = document.getElementById("ciClick");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
   }
