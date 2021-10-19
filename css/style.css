@@ -156,7 +156,8 @@ body {
 }
 
 .site-heading h1 {
-	font-family: "Monoton";
+	font-weight: bold;
+	/* font-family: "Monoton"; */
 	color: white;
 }
 
@@ -2181,13 +2182,13 @@ hr {
 		animation: animateshort infinite 8s;
 		padding-left: 10px;
 	}
-	
+
 	@keyframes animateshort {
-	
+
 		0% {
 			content: "I.I.T. MANDI";
 		}
-	
+
 		50% {
 			content: "भा. प्रौ. सं. मण्डी ";
 		}
